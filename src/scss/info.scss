@@ -1,0 +1,139 @@
+.info {
+  padding: 71px 0 71px;
+  background-color: $blue;
+
+  @media (max-width: 647px) {
+    padding: 34px 0;
+  }
+}
+
+.info-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  @media (max-width: 647px) {
+    flex-direction: column;
+  }
+}
+
+.info-title {
+  margin: 0 auto 29px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: $_18px;
+  line-height: $_21px;
+  color: $white;
+
+  @media (max-width: 647px) {
+    margin: 0 auto 36px;
+  }
+}
+
+.info-location {
+  width: $_370px;
+
+  &-adress {
+    margin: auto;
+    text-align: center;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: $_21px;
+    color: $white;
+  }
+
+  @media (max-width: 1157px) {
+    width: 350px;
+  }
+
+  @media (max-width: 949px) {
+    width: 280px;
+  }
+
+  @media (max-width: 647px) {
+    width: 280px;
+    margin: 0 auto 70px;
+
+    &-adress {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}
+
+.info-share {
+  width: $_370px;
+
+  @media (max-width: 1157px) {
+    width: 250px;
+  }
+
+  @media (max-width: 949px) {
+    width: 250px;
+  }
+
+  @media (max-width: 647px) {
+    margin: 0 auto 60px;
+  }
+}
+
+.info-media {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  &-item {
+    @include social-icon;
+    margin-right: 27px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      border-color: $black;
+      .fa-facebook-f,
+      .fa-twitter,
+      .fa-linkedin {
+        color: $black;
+        transform: scale(1.5) rotate(360deg);
+      }
+    }
+  }
+}
+.fa-brands {
+  transition: 0.3s;
+}
+
+.info-activebox {
+  width: $_370px;
+
+  &-text {
+    margin: auto;
+
+    p {
+      text-align: center;
+      font-family: "Raleway";
+      font-weight: 400;
+      font-size: $_18px;
+      line-height: $_21px;
+      color: $white;
+    }
+  }
+
+  @media (max-width: 1157px) {
+    width: 350px;
+  }
+
+  @media (max-width: 995px) {
+    width: 300px;
+    margin-top: 40px;
+  }
+  @media (max-width: 890px) {
+  }
+  @media (max-width: 647px) {
+    width: 280px;
+    margin: 0 auto;
+  }
+}

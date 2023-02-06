@@ -1,0 +1,49 @@
+@mixin card-description {
+  font-family: 'Raleway';
+  font-weight: 400;
+  line-height: $_21px;
+  font-size: $_18px;
+  color: #6C7279;
+}
+
+@mixin social-icon {
+  border: 1px solid $lite-grey;
+  width: 39px;
+  height: 39px;
+  position: relative;
+  cursor: pointer;
+  a {
+      font-size: 18px;
+      color: $lite-grey;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+}
+
+@mixin red-button {
+  display: block;
+  text-align: center;
+  width: $_370px;
+  border: 1px solid $rose;
+  background-color: $rose;
+  color: $white;
+  font-family: 'Raleway';
+  font-size: $_24px;
+  font-weight: 900;
+  line-height: $_80px;
+  transition: 0.2s;
+  margin: 0 auto;
+  text-transform: uppercase;
+
+  &:hover {
+      background-color: $white;
+      color: $rose;
+      transform: scale(0.8);
+  }
+
+  @media (max-width: 566px) {
+      width: 280px;
+  }
+}
