@@ -92,11 +92,11 @@
       margin-right: 0;
     }
     &:hover {
-      border-color: $black;
+      border-color: $orange;
       .fa-facebook-f,
       .fa-twitter,
       .fa-linkedin {
-        color: $black;
+        color: $orange;
         transform: scale(1.5) rotate(360deg);
       }
     }

@@ -1,8 +1,8 @@
-.people {
+.gallery {
   padding: 114px 0;
 }
 
-.people-wrap {
+.gallery-wrap {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -13,7 +13,7 @@
   }
 }
 
-.people-card {
+.gallery-card {
   width: 260px;
   margin: 0 15px;
   overflow: hidden;
@@ -38,7 +38,7 @@
     font-weight: 700;
     font-size: $_24px;
     line-height: $_28px;
-    margin-bottom: 5.29px;
+    margin-bottom: 5px;
     text-align: left;
     text-transform: capitalize;
     color: #2d3033;
@@ -88,12 +88,12 @@
       }
 
       &:hover {
-        border-color: $black;
+        border-color: $orange;
 
         .fa-facebook-f,
         .fa-twitter,
         .fa-linkedin {
-          color: $black;
+          color: $orange;
           transform: scale(1.5) rotate(360deg);
         }
       }

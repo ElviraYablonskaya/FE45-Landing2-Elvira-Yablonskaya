@@ -7,7 +7,7 @@
   min-height: 100vh;
 }
 
-.top {
+.line {
   border-bottom: 1px solid $grey;
   padding-bottom: 30px;
 
@@ -133,6 +133,6 @@
   }
 }
 
-.main-find {
+.main-more {
   @include red-button;
 }

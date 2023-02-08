@@ -1,9 +1,9 @@
-.design-portfolio {
+.projects-portfolio {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.design-portfolio-foto {
+.projects-portfolio-foto {
   width: 25%;
   max-height: 340px;
   border: 2px solid $white;
@@ -23,7 +23,7 @@
     z-index: 50;
   }
   &:hover {
-    .design-portfolio-foto-hover {
+    .projects-portfolio-foto-hover {
       display: block;
       width: 100%;
       height: 100%;
@@ -43,7 +43,7 @@
   }
 }
 
-.design-portfolio-foto-hover {
+.projects-portfolio-foto-hover {
   display: none;
   text-align: center;
   position: absolute;
